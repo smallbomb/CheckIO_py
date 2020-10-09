@@ -21,8 +21,11 @@ MORSE = {'.-':    'a', '-...':  'b', '-.-.':  'c',
         }
 
 def morse_decoder(code):
+    # solution 1
+    return ''.join(MORSE[encr] if encr else ' ' for encr in code.replace('   ', '  ').split(' ')).capitalize()
+    # solution 2
     str = ""
-    for encr in code.split(" "):
+    for encr in code.split(' '):
         str += MORSE[encr] if encr else ' '
     return str.capitalize().replace('  ', ' ')
 
