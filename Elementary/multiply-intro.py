@@ -1,12 +1,12 @@
 # https://py.checkio.org/en/mission/multiply-intro/
 
 '''
-  (at the top right of the mission description there always is a list of available translations)
+(at the top right of the mission description there always is a list of available translations)
   
-  This is an intro mission, the purpose of which is to explain how to solve missions on CheckiO and how to get the most out of solving them. 
-  When the mission is solved, one more station become available for you, containing more complex missions.
+This is an intro mission, the purpose of which is to explain how to solve missions on CheckiO and how to get the most out of solving them. 
+When the mission is solved, one more station become available for you, containing more complex missions.
   
-  So this mission is the easiest one. Write a function that will receive 2 numbers as input and it should return the multiplication of these 2 numbers.
+So this mission is the easiest one. Write a function that will receive 2 numbers as input and it should return the multiplication of these 2 numbers.
 '''
 
 def mult_two(a, b):
