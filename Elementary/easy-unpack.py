@@ -1,12 +1,12 @@
 # https://py.checkio.org/en/mission/easy-unpack/
 
 '''
-  Your mission here is to create a function that gets a tuple and returns a tuple with 3 elements - the first, 
-  third and second element from the last for the given array
+Your mission here is to create a function that gets a tuple and returns a tuple with 3 elements - the first, 
+third and second element from the last for the given array
   
-  One important thing worth pointing out is that you need to use index in order to extract elements from the array.
-  Pay attention, index counting starts from 0, not from 1. Which means that if you need to get the first element from the array elements,
-  you should do elements[0], and the second element is elements[1].
+One important thing worth pointing out is that you need to use index in order to extract elements from the array.
+Pay attention, index counting starts from 0, not from 1. Which means that if you need to get the first element from the array elements,
+you should do elements[0], and the second element is elements[1].
 '''
 
 def easy_unpack(e: tuple) -> tuple:
